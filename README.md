@@ -1,5 +1,7 @@
 # 3-column preview card component
 
+- Live website -(cocky-mirzakhani-2f6375.netlify.app)
+
 ## Table of contents
 
 - [The challenge](#the-challenge)
