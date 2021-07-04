@@ -1,6 +1,6 @@
 # 3-column preview card component
 
-- Live website -(cocky-mirzakhani-2f6375.netlify.app)
+- Live website -(https://cocky-mirzakhani-2f6375.netlify.app/)
 
 ## Table of contents
 
