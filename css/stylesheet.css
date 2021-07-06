@@ -11,8 +11,11 @@ html {
 
 body {
 	background: rgb(255, 255, 255);
-	margin: 2rem;
 	line-height: 1.4;
+}
+.content {
+	display: flex;
+	justify-content: center;
 }
 
 .btn {
@@ -23,23 +26,17 @@ body {
 	border-radius: 100px 100px 100px 100px;
 }
 
-.content {
-	margin: 4rem auto;
-}
-
 .wrap-content {
 	display: grid;
-	padding: 0;
-	grid-gap: 0;
+	align-items: center;
+	justify-content: center;
 	grid-template-areas: "c1" "c2" "c3";
-	margin: auto;
 }
 
 .card {
 	color: white;
 	display: flex;
 	flex-flow: column wrap;
-	margin: auto;
 	padding: 3rem;
 	width: 200px;
 }
@@ -107,10 +104,12 @@ p,
 }
 
 @media (min-width: 940px) {
+	.content {
+		height: 100vh;
+	}
+
 	.wrap-content {
 		grid-template-areas: "c1 c2 c3";
-		width: fit-content;
-		margin: 8rem auto;
 	}
 
 	.c1 {
@@ -127,6 +126,12 @@ p,
 	}
 
 	.btn {
+		margin-top: 3rem;
+	}
+}
+
+@media (max-width: 940px) {
+	.content {
 		margin-top: 3rem;
 	}
 }
